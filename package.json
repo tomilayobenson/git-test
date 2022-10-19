@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "GIT and NPM",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npm run lite",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomilayobenson/git-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomilayobenson/git-test/issues"
+  },
+  "homepage": "https://github.com/tomilayobenson/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
